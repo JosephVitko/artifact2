@@ -12,7 +12,7 @@ export default function Nav() {
             <Navbar bg="primary" variant="light">
                 <Navbar.Brand >
                     <Image src='https://i.pinimg.com/originals/e4/9d/ab/e49dabbdf15dc0ad2a6d039c0e785440.png' className='logo' flex/>
-                    <span className='fancy-font'>Chef's Kitchen</span>
+                    <span className='fancy-font'>Chef's Dictionary</span>
                 </Navbar.Brand>
                 <Navbar.Collapse className="justify-content-end">
                         <Button variant="dark" onClick={() => setLgShow(true)}>About</Button>
