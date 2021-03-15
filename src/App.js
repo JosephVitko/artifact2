@@ -29,9 +29,12 @@ function App() {
       <div className='App'>
           <Nav />
           <div className='splash-container1'>
-              <Image src='https://i.ibb.co/CHMph7B/background1.png' className='splash-background'/>
-              <h1 className='splash-text fancy-font-big'>Dictionary of Culinary Terms</h1>
-              <span className='splash-subtitle'>Essential Words for Aspiring Cooks</span>
+              <div className="IFuOkc"
+                   jsname="LQX2Vd"></div>
+              <div className='splash-caption'>
+                  <h1 className='splash-text fancy-font-big'>Dictionary of Culinary Terms</h1>
+                  <span className='splash-subtitle'>Essential Words for Aspiring Cooks</span>
+              </div>
           </div>
 
         <div className='container'>
