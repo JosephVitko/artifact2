@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+.modal-body {
+  white-space: pre;
+}
+
+.definition-image {
+}
+
+.definition-text {
+  word-wrap: break-word
+}
+
+.card {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.navbar {
+  background-color: #fff!important
+}
+
+.btn {
+  background-color: white;
+  color: rgba(48,48,51,1);
+  border-color: rgba(48,48,51,1);
+}
+
+.navbar-brand {
+  color: rgba(48,48,51,1);
+}
+
+.logo {
+  max-height: 56px;
+  max-height: 56px
+}
+
+.fancy-font {
+  font-family: "Playfair Display", serif;
+  font-size: 18pt;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(48,48,51,1);
+}
+
+.fancy-font-big {
+  font-family: "Playfair Display", serif;
+  font-size: 30pt;
+  font-weight: 700;
+  letter-spacing: 0px;
+  color: rgba(48,48,51,1);
+}
+
+.splash-background {
+  backgroundSize : cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.splash-text {
+  margin-top: -120px;
+}
+
+.splash-container1 {
+  width: auto;
+  height: fit-content;
+  margin-bottom: 100px;
+}
+
+.splash-subtitle {
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 12pt;
+  line-height: 1.75;
+  margin-bottom: 200px;
+}
