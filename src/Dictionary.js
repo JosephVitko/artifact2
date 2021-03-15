@@ -15,7 +15,7 @@ function Entry(props) {
     const handleClose = () => setShow(false)
     const handleShow = () => setShow(true)
     return (
-        <Card style={{ 'max-width': '18rem' }}>
+        <Card style={{ 'max-width': '18rem' }} className='mb-3'>
             <Card.Img variant="top" src={ props.image } />
             <Card.Body>
                 <Card.Title>
@@ -57,7 +57,7 @@ export default class Dictionary extends React.Component {
                 <Row>
                     {entries.map((entry) => {
                         return (
-                            <Col>
+                            <Col className='col-sm-3'>
                                 {this.renderEntry(entry)}
                             </Col>
                         )

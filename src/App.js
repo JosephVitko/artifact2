@@ -36,6 +36,14 @@ function App() {
                   <span className='splash-subtitle'>Essential Words for Aspiring Cooks</span>
               </div>
           </div>
+          <div className='second-section'>
+              <div className='second-header'>
+                  Essential Culinary Terminologies:
+              </div>
+              <div className='second-subtitle'>
+                  This dictionary will help aspiring young chefs better understand recipes.
+              </div>
+          </div>
 
         <div className='container'>
             <div className='entry-container'>
