@@ -14,9 +14,15 @@ function Entry(props) {
 
     const handleClose = () => setShow(false)
     const handleShow = () => setShow(true)
+    console.log(props)
     return (
+
         <Card style={{ 'max-width': '18rem' }} className='mb-5'>
-            <Card.Img variant="top" src={ props.image } />
+            {props.image ? (
+                <Card.Img variant="top" src={ props.image } />
+            ) : (
+                <div dangerouslySetInnerHTML={{__html: (props.video || '')}} />
+            )}
             <Card.Body>
                 <Card.Title>
                     { u.capitalize(props.word) }
@@ -32,7 +38,11 @@ function Entry(props) {
                 <Modal.Body>
                     { props.definition }
                     <br />
-                    <Image className='definition-image mt-4' src={ props.image } rounded fluid />
+                    {props.image ? (
+                        <Card.Img variant="top" src={ props.image } />
+                    ) : (
+                        <div className='modal-video' dangerouslySetInnerHTML={{__html: (props.video || '')}} />
+                    )}
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>Close</Button>
@@ -72,6 +82,7 @@ export default class Dictionary extends React.Component {
             word={entry.word}
             definition={entry.definition}
             image={entry.image_url}
+            video={entry.video_html}
         />
     }
 }

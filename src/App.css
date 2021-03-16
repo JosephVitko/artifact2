@@ -70,6 +70,9 @@ body {
   .card-img-top {
     min-height: 140px;
   }
+  iframe {
+    min-height: 140px;
+  }
 }
 
 .navbar {
@@ -113,6 +116,12 @@ body {
   height: 10rem;
 }
 
+iframe {
+  width: 100%;
+  object-fit: contain;
+  height: 10rem;
+}
+
 @media screen and (min-width: 1024px) {
   .fancy-font-big {
     font-size: 38pt;
@@ -124,6 +133,9 @@ body {
 
 @media screen and (max-width: 1200px) {
   .card-img-top {
+    height: 6rem;
+  }
+  iframe {
     height: 6rem;
   }
   .card {
@@ -252,6 +264,9 @@ body {
   .card-img-top {
     height: auto;
   }
+  iframe {
+    height: auto;
+  }
   .card {
     height: fit-content;
   }
@@ -270,3 +285,9 @@ body {
     max-width: 1140px;
   }
 }
+
+.modal-video iframe {
+  height: 16rem;
+}
+
+
