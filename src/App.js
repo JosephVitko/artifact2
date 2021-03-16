@@ -45,7 +45,7 @@ function App() {
               </div>
           </div>
 
-        <div className='container'>
+        <div className='container' style={{ 'passing-top': '24px' }}>
             <div className='entry-container'>
             <ListLoading isLoading={appState.loading} entries={appState.entries}/>
             </div>

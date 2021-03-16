@@ -15,7 +15,7 @@ function Entry(props) {
     const handleClose = () => setShow(false)
     const handleShow = () => setShow(true)
     return (
-        <Card style={{ 'max-width': '18rem' }} className='mb-3'>
+        <Card style={{ 'max-width': '18rem' }} className='mb-5'>
             <Card.Img variant="top" src={ props.image } />
             <Card.Body>
                 <Card.Title>
