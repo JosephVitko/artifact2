@@ -4,6 +4,6 @@ This is the frontend for our Artifact 2 project for ENGL 1102. It was made in Re
 http://chefsdictionary.ga
 
 Todo:
-Switch API calls to new domain josephvitko.com
-Add ability to add/update words directly on the website for admins
+Switch API calls to new domain josephvitko.com, 
+Add ability to add/update words directly on the website for admins, 
 Auto-sorting of words alphabetically
